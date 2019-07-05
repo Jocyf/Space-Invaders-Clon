@@ -1091,6 +1091,11 @@ Prefab:
       propertyPath: useMobileInput
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114250721944517406, guid: cae9458c27f8797439d8038d1c62e2b1,
+        type: 2}
+      propertyPath: isMobile
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cae9458c27f8797439d8038d1c62e2b1, type: 2}
   m_IsPrefabParent: 0
@@ -4971,7 +4976,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1066533646
 Transform:
   m_ObjectHideFlags: 0
@@ -5642,7 +5647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4c8690cd82130144833742be12bdd61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemiesManager: {fileID: 0}
+  enemiesManager: {fileID: 1458735544}
 --- !u!1 &1458735542
 GameObject:
   m_ObjectHideFlags: 0
