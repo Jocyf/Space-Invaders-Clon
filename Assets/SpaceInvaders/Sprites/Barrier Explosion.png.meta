@@ -1,0 +1,853 @@
+fileFormatVersion: 2
+guid: a175327fcc75528419d5f4f7c9d53ced
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Barrier
+    21300002: Player
+    21300004: Player Explosion 1
+    21300006: Enemy Explosion
+    21300008: Player Bullet
+    21300010: Red UFO
+    21300012: Enemy1_1
+    21300014: Enemy1_2
+    21300016: Enemy2_1
+    21300018: Enemy2_2
+    21300020: Enemy3_1
+    21300022: Enemy3_2
+    21300024: BoxWhite
+    21300026: Enemy_Bomb 1
+    21300028: Enemy_Bomb 2
+    21300030: Enemy_Bomb 3
+    21300032: Enemy_Bomb 4
+    21300034: Enemy Bullet 1-1
+    21300036: Enemy Bullet 1-2
+    21300038: Explosion Top
+    21300040: Player Explosion 2
+    21300042: Barrier Explosion
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 3
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Barrier
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 368
+        width: 155
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -38.860657, y: 52.72821}
+        - {x: -72.4751, y: 24.98523}
+        - {x: -72.72818, y: -53.475098}
+        - {x: 73.72818, y: -53.72818}
+        - {x: 73.221954, y: 24.66983}
+        - {x: 46.250824, y: 52.72821}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 278
+        width: 93
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 9.364349, y: 19.904175}
+        - {x: 2.205658, y: 26.805847}
+        - {x: -4.3868103, y: 26.944733}
+        - {x: -10.352539, y: 19.565125}
+        - {x: -10.550171, y: 6.9841614}
+        - {x: -37.410583, y: 6.9141235}
+        - {x: -43.479736, y: -0.2567749}
+        - {x: -43.52353, y: -25.941467}
+        - {x: 42.76999, y: -26.02472}
+        - {x: 42.2706, y: 0.103515625}
+        - {x: 35.180878, y: 6.897156}
+        - {x: 9.542358, y: 7.2120667}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player Explosion 1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 196
+        width: 105
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 26, y: -17}
+        - {x: 25, y: -28}
+        - {x: 28, y: -29}
+        - {x: 38, y: -29}
+        - {x: 38, y: -10}
+        - {x: 25, y: 5}
+        - {x: -5, y: 15}
+        - {x: -19, y: 15}
+        - {x: -21, y: -1}
+        - {x: -17, y: -2}
+        - {x: -25, y: -4}
+        - {x: -46, y: -17}
+        - {x: -46, y: -29}
+        - {x: 23, y: -29}
+        - {x: 25, y: -27}
+        - {x: 25, y: -20}
+        - {x: 23, y: -18}
+      - - {x: 43, y: -18}
+        - {x: 41, y: -20}
+        - {x: 41, y: -27}
+        - {x: 43, y: -29}
+        - {x: 49, y: -29}
+        - {x: 51, y: -27}
+        - {x: 51, y: -20}
+        - {x: 49, y: -18}
+      - - {x: -52, y: -5}
+        - {x: -52, y: -16}
+        - {x: -42, y: -16}
+        - {x: -42, y: -5}
+      - - {x: -37, y: 8}
+        - {x: -39, y: 6}
+        - {x: -39, y: 0}
+        - {x: -37, y: -2}
+        - {x: -30, y: -2}
+        - {x: -28, y: 0}
+        - {x: -28, y: 6}
+        - {x: -30, y: 8}
+      - - {x: -4, y: 15}
+        - {x: -6, y: 13}
+        - {x: -6, y: 6}
+        - {x: -4, y: 4}
+        - {x: 3, y: 4}
+        - {x: 5, y: 6}
+        - {x: 5, y: 13}
+        - {x: 3, y: 15}
+      - - {x: 23, y: 21}
+        - {x: 12, y: 21}
+        - {x: 8, y: 16}
+        - {x: 8, y: 5}
+        - {x: 10, y: 4}
+        - {x: 18, y: 4}
+        - {x: 25, y: 13}
+        - {x: 25, y: 20}
+      - - {x: -17, y: 28}
+        - {x: -19, y: 26}
+        - {x: -19, y: 20}
+        - {x: -17, y: 18}
+        - {x: -10, y: 18}
+        - {x: -8, y: 20}
+        - {x: -8, y: 26}
+        - {x: -10, y: 28}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy Explosion
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 273
+        width: 100
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -17, y: -3.5}
+        - {x: -26, y: -3.5}
+        - {x: -39, y: -15.5}
+        - {x: -39, y: -27.5}
+        - {x: -28, y: -27.5}
+        - {x: -15, y: -15.5}
+        - {x: -15, y: -4.5}
+      - - {x: -12, y: -10.5}
+        - {x: -19, y: -17.5}
+        - {x: -19, y: -26.5}
+        - {x: -17, y: -27.5}
+        - {x: -4, y: -27.5}
+        - {x: -2, y: -22.5}
+        - {x: -2, y: -10.5}
+      - - {x: 2, y: -10.5}
+        - {x: 1, y: -12.5}
+        - {x: 1, y: -23.5}
+        - {x: 6, y: -27.5}
+        - {x: 16, y: -27.5}
+        - {x: 18, y: -26.5}
+        - {x: 18, y: -17.5}
+        - {x: 9, y: -10.5}
+      - - {x: 14, y: -3.5}
+        - {x: 14, y: -14.5}
+        - {x: 20, y: -27.5}
+        - {x: 38, y: -27.5}
+        - {x: 38, y: -15.5}
+        - {x: 26, y: -3.5}
+      - - {x: -44, y: 6.5}
+        - {x: -46, y: 4.5}
+        - {x: -46, y: -2.5}
+        - {x: -44, y: -4.5}
+        - {x: -30, y: -4.5}
+        - {x: -28, y: -2.5}
+        - {x: -28, y: 4.5}
+        - {x: -30, y: 6.5}
+      - - {x: 29, y: 6.5}
+        - {x: 27, y: 4.5}
+        - {x: 27, y: -2.5}
+        - {x: 29, y: -4.5}
+        - {x: 43, y: -4.5}
+        - {x: 45, y: -2.5}
+        - {x: 45, y: 4.5}
+        - {x: 43, y: 6.5}
+      - - {x: -27, y: 5.5}
+        - {x: -15, y: 5.5}
+        - {x: -15, y: 18.5}
+        - {x: -17, y: 25.5}
+        - {x: -28, y: 29.5}
+        - {x: -39, y: 29.5}
+        - {x: -39, y: 18.5}
+      - - {x: 26, y: 29.5}
+        - {x: 17, y: 22.5}
+        - {x: 14, y: 13.5}
+        - {x: 14, y: 5.5}
+        - {x: 27, y: 5.5}
+        - {x: 38, y: 20.5}
+        - {x: 38, y: 27.5}
+        - {x: 36, y: 29.5}
+      - - {x: -19, y: 17.5}
+        - {x: -14, y: 12.5}
+        - {x: -2, y: 12.5}
+        - {x: -2, y: 29.5}
+        - {x: -19, y: 29.5}
+      - - {x: 7, y: 29.5}
+        - {x: 1, y: 23.5}
+        - {x: 1, y: 14.5}
+        - {x: 3, y: 12.5}
+        - {x: 16, y: 12.5}
+        - {x: 18, y: 17.5}
+        - {x: 18, y: 29.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player Bullet
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 205
+        width: 8
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11.347351, y: 20.19603}
+        - {x: -9.004028, y: -19.772018}
+        - {x: 10.875946, y: -19.19603}
+        - {x: 10.772003, y: 20.388031}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Red UFO
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 165
+        width: 82
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 78.604416, y: -5.4625244}
+        - {x: 40.865616, y: 33.863815}
+        - {x: -45.14679, y: 34.12741}
+        - {x: -80.68582, y: -5.047241}
+        - {x: -81.05915, y: -14.223145}
+        - {x: -51.05179, y: -34.84462}
+        - {x: 48.77591, y: -34.84462}
+        - {x: 78.605576, y: -15.930054}
+      - - {x: -47.5, y: 2.5}
+        - {x: -44.5, y: 2.5}
+        - {x: -44.5, y: -1.5}
+        - {x: -47.5, y: -1.5}
+      - - {x: -18.5, y: 2.5}
+        - {x: -14.5, y: 2.5}
+        - {x: -14.5, y: -1.5}
+        - {x: -18.5, y: -1.5}
+      - - {x: 11.5, y: 2.5}
+        - {x: 15.5, y: 2.5}
+        - {x: 15.5, y: -1.5}
+        - {x: 11.5, y: -1.5}
+      - - {x: 41.5, y: 2.5}
+        - {x: 45.5, y: 2.5}
+        - {x: 45.5, y: -1.5}
+        - {x: 41.5, y: -1.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy1_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 438
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 25.441956}
+        - {x: -5.4983444, y: 25.441956}
+        - {x: -26.081478, y: 13}
+        - {x: -26.106586, y: -27.61441}
+        - {x: 27.213173, y: -27.934143}
+        - {x: 27.081474, y: 8.285156}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy1_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 437
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -14, y: 28}
+        - {x: -28, y: 7}
+        - {x: -28, y: -28}
+        - {x: 28, y: -28}
+        - {x: 28, y: 17}
+        - {x: 13, y: 28}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy2_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 351
+        width: 83
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1.5, y: -17.5}
+        - {x: 1.5, y: -27.5}
+        - {x: 24.5, y: -27.5}
+        - {x: 38.5, y: -24.5}
+        - {x: 38.5, y: 1.5}
+        - {x: 30.5, y: 28.5}
+        - {x: 15.5, y: 28.5}
+        - {x: 9.5, y: 23.5}
+        - {x: -8.5, y: 28.5}
+        - {x: -31.5, y: 28.5}
+        - {x: -38.5, y: 10.5}
+        - {x: -38.5, y: -14.5}
+        - {x: -36.5, y: -22.5}
+        - {x: -16.5, y: -27.5}
+        - {x: -3.5, y: -27.5}
+        - {x: -1.5, y: -25.5}
+        - {x: -1.5, y: -19.5}
+        - {x: -3.5, y: -17.5}
+      - - {x: -13.5, y: 4.5}
+        - {x: -12.5, y: 4.5}
+        - {x: -12.5, y: 3.5}
+        - {x: -13.5, y: 3.5}
+      - - {x: 13.5, y: 4.5}
+        - {x: 13.5, y: 3.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy2_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 352
+        width: 83
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 39.5, y: -12.5}
+        - {x: 39.5, y: 28.5}
+        - {x: 18.5, y: 28.5}
+        - {x: 16.5, y: 26.5}
+        - {x: 10.5, y: 22.5}
+        - {x: -13.5, y: 28.5}
+        - {x: -25.5, y: 28.5}
+        - {x: -36.5, y: 23.5}
+        - {x: -36.5, y: -16.5}
+        - {x: -32.5, y: -27.5}
+        - {x: -28.5, y: -28.5}
+        - {x: -19.5, y: -28.5}
+        - {x: -14.5, y: -22.5}
+        - {x: 15.5, y: -28.5}
+        - {x: 34.5, y: -28.5}
+      - - {x: -11.5, y: 3.5}
+        - {x: -11.5, y: 2.5}
+      - - {x: 14.5, y: 3.5}
+        - {x: 14.5, y: 2.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy3_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 263
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -36, y: 28}
+        - {x: -40, y: 25}
+        - {x: -40, y: -11}
+        - {x: -34, y: -28}
+        - {x: 42, y: -28}
+        - {x: 42, y: 24}
+        - {x: 29, y: 28}
+      - - {x: -3, y: -9}
+        - {x: 5, y: -9}
+        - {x: 5, y: -10}
+        - {x: -3, y: -10}
+      - - {x: -16, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: 3}
+        - {x: -16, y: 3}
+      - - {x: 11, y: 4}
+        - {x: 18, y: 4}
+        - {x: 18, y: 3}
+        - {x: 11, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy3_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 262
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -41, y: 29}
+        - {x: -41, y: -27}
+        - {x: 41, y: -27}
+        - {x: 41, y: 28}
+        - {x: 40, y: 29}
+      - - {x: -4, y: -9}
+        - {x: 4, y: -9}
+        - {x: 4, y: -10}
+        - {x: -4, y: -10}
+      - - {x: -18, y: 5}
+        - {x: -9, y: 5}
+        - {x: -9, y: 3}
+        - {x: -18, y: 3}
+      - - {x: 9, y: 5}
+        - {x: 17, y: 5}
+        - {x: 17, y: 3}
+        - {x: 9, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoxWhite
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 453
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Bomb 1
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 204
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: 21}
+        - {x: -11, y: 2}
+        - {x: -5, y: -21}
+        - {x: 6, y: -21}
+        - {x: 11, y: 0}
+        - {x: 11, y: 21}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Bomb 2
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 204
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11.5, y: 21}
+        - {x: -11.5, y: -15}
+        - {x: -9.5, y: -21}
+        - {x: 8.5, y: -21}
+        - {x: 11.5, y: -10}
+        - {x: 11.5, y: 21}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Bomb 3
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 204
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 21}
+        - {x: -11, y: 5}
+        - {x: -11, y: -9}
+        - {x: -6, y: -20}
+        - {x: -5, y: -21}
+        - {x: 7, y: -21}
+        - {x: 11, y: -17}
+        - {x: 11, y: 21}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Bomb 4
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 204
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4.5, y: 21}
+        - {x: -11.5, y: -2}
+        - {x: -11.5, y: -21}
+        - {x: 11.5, y: -21}
+        - {x: 11.5, y: 21}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy Bullet 1-1
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 134
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 26.5}
+        - {x: -12, y: -26.5}
+        - {x: 9, y: -26.5}
+        - {x: 12, y: -10.5}
+        - {x: 12, y: 11.5}
+        - {x: 6, y: 26.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy Bullet 1-2
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 134
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 13, y: -0.5}
+        - {x: 13, y: 21.5}
+        - {x: 8, y: 25.5}
+        - {x: -8, y: 25.5}
+        - {x: -12, y: 17.5}
+        - {x: -12, y: -15.5}
+        - {x: -10, y: -25.5}
+        - {x: 7, y: -25.5}
+        - {x: 13, y: -17.5}
+        - {x: 13, y: -10.5}
+        - {x: 11, y: -8.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Explosion Top
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 70
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -24, y: 26}
+        - {x: -24, y: -25}
+        - {x: 22, y: -25}
+        - {x: 22, y: 22}
+        - {x: 21, y: 26}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player Explosion 2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 60
+        width: 105
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 21.5, y: -13}
+        - {x: 24.5, y: -10}
+        - {x: 23.5, y: -16}
+        - {x: 36.5, y: -19}
+        - {x: 36.5, y: 8}
+        - {x: -44.5, y: 8}
+        - {x: -44.5, y: -16}
+        - {x: -37.5, y: -30}
+        - {x: 2.5, y: -30}
+        - {x: 21.5, y: -29}
+        - {x: 23.5, y: -27}
+        - {x: 23.5, y: -15}
+      - - {x: 31.5, y: -19}
+        - {x: 31.5, y: -29}
+        - {x: 42.5, y: -29}
+        - {x: 42.5, y: -20}
+        - {x: 40.5, y: -18}
+        - {x: 33.5, y: -18}
+      - - {x: 40.5, y: 9}
+        - {x: 30.5, y: 9}
+        - {x: 30.5, y: -3}
+        - {x: 35.5, y: -9}
+        - {x: 38.5, y: -10}
+        - {x: 48.5, y: -10}
+        - {x: 48.5, y: 2}
+        - {x: 43.5, y: 8}
+      - - {x: -24.5, y: 2}
+        - {x: -26.5, y: 0}
+        - {x: -26.5, y: -7}
+        - {x: -24.5, y: -9}
+        - {x: -17.5, y: -9}
+        - {x: -15.5, y: -7}
+        - {x: -15.5, y: 0}
+        - {x: -17.5, y: 2}
+      - - {x: -30.5, y: 15}
+        - {x: -32.5, y: 13}
+        - {x: -32.5, y: 6}
+        - {x: -30.5, y: 4}
+        - {x: -23.5, y: 4}
+        - {x: -21.5, y: 6}
+        - {x: -21.5, y: 13}
+        - {x: -23.5, y: 15}
+      - - {x: -3.5, y: 15}
+        - {x: -3.5, y: 4}
+        - {x: 13.5, y: 4}
+        - {x: 13.5, y: 15}
+      - - {x: 13.5, y: 12}
+        - {x: 15.5, y: 10}
+        - {x: 30.5, y: 10}
+        - {x: 36.5, y: 16}
+        - {x: 36.5, y: 28}
+        - {x: 18.5, y: 28}
+        - {x: 13.5, y: 26}
+      - - {x: -48.5, y: 22}
+        - {x: -50.5, y: 20}
+        - {x: -50.5, y: 13}
+        - {x: -48.5, y: 11}
+        - {x: -41.5, y: 11}
+        - {x: -39.5, y: 13}
+        - {x: -39.5, y: 20}
+        - {x: -41.5, y: 22}
+      - - {x: -13.5, y: 22}
+        - {x: -15.5, y: 20}
+        - {x: -15.5, y: 13}
+        - {x: -13.5, y: 11}
+        - {x: -6.5, y: 11}
+        - {x: -4.5, y: 13}
+        - {x: -4.5, y: 20}
+        - {x: -6.5, y: 22}
+      - - {x: 39.5, y: 22}
+        - {x: 37.5, y: 20}
+        - {x: 37.5, y: 13}
+        - {x: 39.5, y: 11}
+        - {x: 46.5, y: 11}
+        - {x: 48.5, y: 13}
+        - {x: 48.5, y: 20}
+        - {x: 46.5, y: 22}
+      - - {x: -30.5, y: 28}
+        - {x: -32.5, y: 26}
+        - {x: -32.5, y: 19}
+        - {x: -30.5, y: 17}
+        - {x: -23.5, y: 17}
+        - {x: -21.5, y: 19}
+        - {x: -21.5, y: 26}
+        - {x: -23.5, y: 28}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Barrier Explosion
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 59
+        width: 42
+        height: 58
+      alignment: 9
+      pivot: {x: 0.502263, y: 0.056042574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 23}
+        - {x: -13, y: 22}
+        - {x: -21, y: 5}
+        - {x: -21, y: -27}
+        - {x: -17, y: -28}
+        - {x: 20, y: -28}
+        - {x: 21, y: -25}
+        - {x: 21, y: 23}
+      - - {x: -9, y: -3}
+        - {x: -10, y: -3}
+        - {x: -10, y: -5}
+        - {x: -9, y: -5}
+      - - {x: 9, y: 10}
+        - {x: 9, y: 10}
+      - - {x: -18, y: 23}
+        - {x: -20, y: 21}
+        - {x: -20, y: 14}
+        - {x: -18, y: 12}
+        - {x: -11, y: 12}
+        - {x: -9, y: 14}
+        - {x: -9, y: 21}
+        - {x: -11, y: 23}
+      - - {x: -6, y: 29}
+        - {x: -8, y: 27}
+        - {x: -8, y: 20}
+        - {x: -6, y: 18}
+        - {x: 1, y: 18}
+        - {x: 3, y: 20}
+        - {x: 3, y: 27}
+        - {x: 1, y: 29}
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
