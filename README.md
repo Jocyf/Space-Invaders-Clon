@@ -1,5 +1,5 @@
-Asteroids Clon
-==============
+Space Invaders Clon
+===================
 
 
 This is an almost perfect Space Invaders Clon made using Unity3D.
